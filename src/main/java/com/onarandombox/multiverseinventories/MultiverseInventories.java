@@ -101,7 +101,7 @@ public class MultiverseInventories extends JavaPlugin implements MVPlugin, Messa
      * {@inheritDoc}
      */
     @Override
-    public void onDisable() {
+   public void onDisable() {
         for (final Player player : getServer().getOnlinePlayers()) {
             final String world = player.getWorld().getName();
             //getData().updateLastWorld(player.getName(), world);
